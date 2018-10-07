@@ -1,80 +1,78 @@
-
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700i');
-
 html, body {
-padding:  0;
-margin: 0;
-overflow: hidden;
-font-family: 'IBM Plex Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
-.navbar{
-width: 100%;
-height: 80px;
-margin-top: 15px;
-display: flex;
-font-size: 28px;
-text-align: center;
-color: white;
+.navbar {
+  width: 100%;
+  height: 80px;
+  margin-top: 15px;
+  display: flex;
+  font-size: 28px;
+  text-align: center;
+  color: white;
 }
 
 .content {
-      display: block;
-  }
+  display: block;
+}
 
-  .menuB{
-        background-color: #BD5120;
-          border: none;
-            color: white;
-              padding: 15px 32px;
-                text-align: center;
-                  text-decoration: none;
-                    display: inline-block;
-                      font-size: 16px;
-                        margin: 4px 2px;
-                          cursor: pointer;
-                            transition-duration: 0.4s;
-                              border-radius: 10%;
-                                margin: 0 auto;
-                                  display: block;
-                                    margin-top: 10%;
-                                }
+.menuB {
+  background-color: #BD5120;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 10%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 10%;
+}
 
-                                .menuB:hover {
-                                      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-                                  }
+.menuB:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
-                                  .menuB:focus {
-                                        outline: none;
-                                    }
+.menuB:focus {
+  outline: none;
+}
 
-                                    #MenuGallery img{
-                                          width: 75%;
-                                            margin: 0 auto;
-                                        }
+#MenuGallery img {
+  width: 75%;
+  margin: 0 auto;
+}
 
-                                        i {
-                                              color: #FE5E17;
-                                          }
+i {
+  color: #FE5E17;
+}
 
-                                          .fa-phone, .fa-utensils {
-                                                  text-shadow: 2px 2px 0 #75371c;
-                                              }
+.fa-phone, .fa-utensils {
+  text-shadow: 2px 2px 0 #75371c;
+}
 
-                                              .left,.right,.center{
-                                                    flex: 1 1 auto;
-                                                }
+.left, .right, .center {
+  flex: 1 1 auto;
+}
 
-                                                #background {
-                                                      z-index: -100;
-                                                        position: absolute;
-                                                          left: -5px;
-                                                            top: -5px;
-                                                              background-image:  url("https://scontent.fymy1-2.fna.fbcdn.net/v/t1.0-9/41632367_1809760515726062_3993052020171866112_n.jpg?_nc_cat=101&oh=61c2064774ecaa2318058156343d8f04&oe=5C1D379E");
-                                                                background-size: 100%;
-                                                                  background-repeat: no-repeat;
-                                                                    background-position: 50% 25%;
-                                                                      filter: blur(5px);
-                                                                        width:  110%;
-                                                                          height: 110%;
-                                                                      }
+#background {
+  z-index: -100;
+  position: absolute;
+  left: -5px;
+  top: -5px;
+  background-image: url("https://scontent.fymy1-2.fna.fbcdn.net/v/t1.0-9/41632367_1809760515726062_3993052020171866112_n.jpg?_nc_cat=101&oh=61c2064774ecaa2318058156343d8f04&oe=5C1D379E");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 25%;
+  filter: blur(5px);
+  width: 110%;
+  height: 110%;
+}
